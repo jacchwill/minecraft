@@ -32,7 +32,7 @@ class mic:
         
     def wdfe_z(self,item,wda):
         for sru in range(0,wda):
-            mc.setBlock(self.x,self.y,self.z-wda, item)
+            mc.setBlock(self.x,self.y,self.z+wda, item)
         
         
 i=mic()
